@@ -1,0 +1,16 @@
+#!/bin/bash
+# config script for creating bash and python scripts
+
+echo "Enter file name: "
+read filename
+touch $filename
+
+
+if (echo $filename | grep -h '[\.]py')
+then
+	chmod u+x $filename
+	echo "#!/usr/bin/python3" >> $filename
+else
+	chmod u+x $filename
+	echo "#!/usr/bin/env bash" >> $filename
+fi
