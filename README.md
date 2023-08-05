@@ -1,9 +1,7 @@
-# Project Title
-horizontal rule:
-## Phone Book
+<h1>Project Title</h1>
+<h2>Phone Book</h2>
 
-# Description
-horizontal rule:
+<h1>Description</h1>
 This is a project undertaken to reinforce learning of some of the basic
 concepts of shell scripting and shell commands. The project allows users to
 add contacts and retreive their mobile numbers if necessary.
@@ -11,42 +9,36 @@ The project consists oftwo scripts:
 	+ script1.py
 	+ script2.py
 
-#### script1.py
+<h3>script1.py</h3>
 	Takes user input for first name, last name and mobile number. The script
 	checks to make sure user input is valid and saves same to a csv file.
 
-#### script2.py
+<h3>script2.py</h3>
 	Takes a user input and scans csv file to see if there is an entry, if there
 	a valid entry, returns mobile number.
 
 
-# Getting Started
-horizontal rule:
-* Dependencies
+<h1>Getting Started</h1>
+<h1>Dependencies</h1>
 	+ Program was created and tested on Ubuntu 20.04 lts
 
-* Installing
+<h1>Installing</h1>
 	+ You can fork this repo to your local machine
 
-* Executing program
+<h1>Executing program</h1>
 	+ TODO
 
-# Help
-horizontal rule:
+<h1>Help</h1>
 N/A
 
-# Authors
-horizontal rule:
+<h1>Authors</h1>
 Kivashan Vadivelu
 
-# Version History
-horizontal rule:
+<h1>Version History</h1>
 version 1
 
-# License
-horizontal rule:
+<h1>License</h1>
 No license
 
-# Acknowledgments
-horizontal rule:
+<h1>Acknowledgments</h1>
 Alx-Africa/Holberton - for their Software Engineering Program
