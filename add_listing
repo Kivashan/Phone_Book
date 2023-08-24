@@ -31,11 +31,12 @@ while true
 do
 	echo "Mobile number: "
 	read -r mobile
-	if [[ "$mobile" =~ ^\d{10}$ ]]
+	echo "$mobile"
+	if [[ "$mobile | grep -e ^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}$" ]]
 	then
-		break
-	else
 		echo "Can only be digits 0 to 9."
+	else
+		break
 	fi
 done
 

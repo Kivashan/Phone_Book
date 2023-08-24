@@ -1,44 +1,46 @@
-<h1>Project Title</h1>
-<h2>Phone Book</h2>
+# 0x07
 
-<h1>Description</h1>
-This is a project undertaken to reinforce learning of some of the basic
-concepts of shell scripting and shell commands. The project allows users to
-add contacts and retreive their mobile numbers if necessary.
-The project consists oftwo scripts:
-	+ script1.py
-	+ script2.py
+## Repo for project 0x07
 
-<h3>script1.py</h3>
-	Takes user input for first name, last name and mobile number. The script
-	checks to make sure user input is valid and saves same to a csv file.
+ THis repo contains a project from ALX, The aim of the project is to teach fundamental skills in
 
-<h3>script2.py</h3>
-	Takes a user input and scans csv file to see if there is an entry, if there
-	a valid entry, returns mobile number.
+**Table of Contents**
 
+1. [Dependencies](#Dependencies)
+1. [Resources](#Resources)
+1. [Task completion](#Task-completion)
+1. [Contributions](#Contributions)
+1. [License](#License)
+## Dependencies
 
-<h1>Getting Started</h1>
-<h1>Dependencies</h1>
-	+ Program was created and tested on Ubuntu 20.04 lts
+Ubuntu 20.04
+Python3
+Pycodestyle
 
-<h1>Installing</h1>
-	+ You can fork this repo to your local machine
+[To top](#0x07)
 
-<h1>Executing program</h1>
-	+ TODO
+## Resources
 
-<h1>Help</h1>
-N/A
+1. [Resource Num](paste url here)
 
-<h1>Authors</h1>
-Kivashan Vadivelu
+[To top](#0x07)
 
-<h1>Version History</h1>
-version 1
+## Task completion
 
-<h1>License</h1>
+- [ ] Task 0
+
+*Rest of tasks to be listed*
+
+[To top](#0x07)
+
+## Contributions
+
+No contributors
+
+[To top](#0x07)
+
+## License
+
 No license
 
-<h1>Acknowledgments</h1>
-Alx-Africa/Holberton - for their Software Engineering Program
+[To top](#0x07)
